@@ -29,5 +29,13 @@ Good to check maven dependencies are downloaded and referred in the project. <br
 ### Run with testng XML
 > Right click on the testng xml file and choose Run As->TestNG Suite
 
+### Json file
+> To test the script stability, added a few Json which has different combination of players and roles
+
+### Properties file
+> Mention the Json file to be referred by scripts in this config.properties file
+> example
+>    rcbPlayersJsonFile:playersListRCB.json
+
 ### Note
 Use Java 8 or higher as some of the java 8 features are implemented in test script
