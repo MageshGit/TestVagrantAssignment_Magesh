@@ -33,8 +33,8 @@ Good to check maven dependencies are downloaded and referred in the project. <br
 > To test the script stability, added a few Json which has different combination of players and roles
 
 ### Properties file
-> Mention the Json file to be referred by scripts in this config.properties file
-> example
+> Mention the Json file to be referred by scripts in this config.properties file   <br />
+> example   <br />
 >    rcbPlayersJsonFile:playersListRCB.json
 
 ### Note
