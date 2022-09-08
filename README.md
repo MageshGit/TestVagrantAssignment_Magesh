@@ -37,5 +37,8 @@ Good to check maven dependencies are downloaded and referred in the project. <br
 > example   <br />
 >    rcbPlayersJsonFile:playersListRCB.json
 
+### Test reports
+> Execute scripts and the default testng reports will be published in the test-output folder
+
 ### Note
 Use Java 8 or higher as some of the java 8 features are implemented in test script
