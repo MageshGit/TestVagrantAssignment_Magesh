@@ -13,7 +13,7 @@ Project type: Maven project - https://maven.apache.org/   <br />
 Good to check maven dependencies are downloaded and referred in the project. <br />
 
 ## Script details
-**TestNG XML file**: teamPlayersTest.xml
+**TestNG XML file**: teamPlayersTest.xml   <br />
 **Testscript class name**: TeamPlayersTest <br />
 **Testscript methods**:   
 1. verifyTeamHasOnlyFourForeignPlayers      <br />
