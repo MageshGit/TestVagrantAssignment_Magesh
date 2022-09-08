@@ -50,7 +50,7 @@ public class ConfigReader {
 		try {
 			valueToReturn = getConfigReader().getProperty(propertyName).trim();
 		} catch (Exception e) {
-
+			e.printStackTrace();
 		}
 		return valueToReturn;
 	}

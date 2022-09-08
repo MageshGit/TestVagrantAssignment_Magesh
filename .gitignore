@@ -31,3 +31,4 @@ hs_err_pid*
 
 # project specific folders that are not required to track
 /.settings
+/test-output
