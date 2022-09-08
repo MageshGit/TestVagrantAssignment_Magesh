@@ -13,18 +13,21 @@ Project type: Maven project - https://maven.apache.org/   <br />
 Good to check maven dependencies are downloaded and referred in the project. <br />
 
 ## Script details
+**TestNG XML file**: teamPlayersTest.xml   <br />
 **Testscript class name**: TeamPlayersTest <br />
-**Testscript methods**:   <br />
+**Testscript methods**:   
 1. verifyTeamHasOnlyFourForeignPlayers      <br />
-2.  verifyTeamHasAtleastOneWicketKeeper      <br />
-**TestNG XML file**: teamPlayersTest.xml
+2.  verifyTeamHasAtleastOneWicketKeeper      
 
 ## Running test scripts
 ### Run scripts at class level
 > Right click on class-level (or) class name, choose Run As-> TestNG test
 
 ### Run individual script
-> Right click on testng test method, choose Run As-> TestNG test      <br />
+> Right click on testng test method, choose Run As-> TestNG test   
 
 ### Run with testng XML
 > Right click on the testng xml file and choose Run As->TestNG Suite
+
+### Note
+Use Java 8 or higher as some of the java 8 features are implemented in test script
