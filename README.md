@@ -16,7 +16,7 @@ Good to check maven dependencies are downloaded and referred in the project. <br
 **Testscript class name**: TeamPlayersTest <br />
 **Testscript methods**:   <br />
 1. verifyTeamHasOnlyFourForeignPlayers      <br />
-2.  verifyTeamHasAtleastOneWicketKeeper      <br />
+2.  verifyTeamHasAtleastOneWicketKeeper      
 **TestNG XML file**: teamPlayersTest.xml
 
 ## Running test scripts
@@ -28,3 +28,6 @@ Good to check maven dependencies are downloaded and referred in the project. <br
 
 ### Run with testng XML
 > Right click on the testng xml file and choose Run As->TestNG Suite
+
+### Note
+Use Java 8 or higher as some of the java 8 features are implemented in test script
